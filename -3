@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grilled Chicken Recipe</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Page-Specific Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            color: #f4c10f;
+            font-size: 36px;
+            margin: 0;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #f4c10f;
+        }
+
+        ul, ol {
+            background: #111;
+            border-radius: 10px;
+            padding: 20px;
+            list-style-position: inside;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        }
+
+        ul li, ol li {
+            font-size: 18px;
+            padding: 8px 0;
+            border-bottom: 1px solid #333;
+        }
+
+        ul li:last-child, ol li:last-child {
+            border-bottom: none;
+        }
+
+        footer {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #f4c10f;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Grilled Chicken Recipe</h1>
+    </header>
+    <section>
+        <h2>Ingredients</h2>
+        <ul>
+            <li>2 chicken breasts</li>
+            <li>2 tbsp olive oil</li>
+            <li>1 tsp garlic powder</li>
+            <li>1 tsp paprika</li>
+            <li>Salt and pepper to taste</li>
+        </ul>
+        <h2>Instructions</h2>
+        <ol>
+            <li>Preheat grill to medium heat.</li>
+            <li>Season chicken breasts with olive oil, garlic powder, paprika, salt, and pepper.</li>
+            <li>Grill chicken for 6-7 minutes on each side or until fully cooked (internal temperature should reach 75°C or 165°F).</li>
+            <li>Let rest for 5 minutes to retain juices, then serve with your favorite sides.</li>
+        </ol>
+    </section>
+    <footer>
+        <a href="p2.html">Back to Fitness Hub</a>
+    </footer>
+</body>
+</html>
